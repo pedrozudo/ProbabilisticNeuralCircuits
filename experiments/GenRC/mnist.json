@@ -1,0 +1,36 @@
+{
+    "seed_everything": [
+        42
+    ],
+    "train_config": [
+        "train.yaml"
+    ],
+    "datasets": [
+        "mnist"
+    ],
+    "structure": [
+        "GenRC"
+    ],
+    "components": [
+        8,
+        12,
+        16
+    ],
+    "mixing": [
+        "neural-square-2",
+        "quotient-square-2",
+        "sum"
+    ],
+    "feature_dim": [
+        256
+    ],
+    "batch_size": [
+        50
+    ],
+    "num_workers": [
+        16
+    ],
+    "max_epochs": [
+        100
+    ]
+}
