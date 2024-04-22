@@ -11,7 +11,7 @@ MNIST_DATASETS = [
     "fmnist",
     "emnist:mnist",
     "emnist:letters",
-    "emnist:balances",
+    "emnist:balanced",
     "emnist:byclass",
 ]
 N_CLASSES = {"mnist": 10, "fmnist": 10}
